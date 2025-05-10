@@ -7,5 +7,6 @@ export default defineConfig({
             bundler: 'vite'
         },
         specPattern: "cypress/component/**/*.{ts,tsx}",
+        
     },
 });
