@@ -19,4 +19,4 @@ Cypress.Commands.add('mount', (component, options = {}) => {
 
     const wrapped = <MemoryRouter {...routerProps}>{component}</MemoryRouter>;
     return mount(wrapped, mountOptions);
-}
+});
