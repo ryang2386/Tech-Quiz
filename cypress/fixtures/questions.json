@@ -1,0 +1,21 @@
+{
+    "question": "What is the capital of Jamaica?",
+    "answers": [
+        {
+            "text": "Kingston",
+            "isCorrect": true
+        },
+        {
+            "text": "Montego Bay",
+            "isCorrect": false
+        },
+        {
+            "text": "Ocho Rios",
+            "isCorrect": false
+        },
+        {
+            "text": "Negril",
+            "isCorrect": false
+        }
+    ]
+}

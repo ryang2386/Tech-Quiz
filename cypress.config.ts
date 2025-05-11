@@ -7,6 +7,12 @@ export default defineConfig({
             bundler: 'vite'
         },
         specPattern: "cypress/component/**/*.{ts,tsx}",
-        
+
+    },
+
+    e2e: {
+        setupNodeEvents(on, config) {
+
+        },
     },
 });
