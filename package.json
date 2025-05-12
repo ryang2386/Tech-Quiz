@@ -14,7 +14,9 @@
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
-    "test": "cypress run --component",
+    "test:e2e": "start-server-and-test start:dev http://127.0.0.1:3001/ cypress run --e2e",
+    "test:component": "cypress run --component",
+    "test": "npm run test:component && npm run test:e2e",
     "cypress": "cypress open"
   },
   "keywords": [],
@@ -29,6 +31,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
+    "start-server-and-test": "^2.0.11",
     "typescript": "^5.5.3",
     "vitest": "^2.0.3",
     "wait-on": "^7.2.0"

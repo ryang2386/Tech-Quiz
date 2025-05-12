@@ -7,9 +7,8 @@ export default defineConfig({
             bundler: 'vite'
         },
         specPattern: "cypress/component/**/*.{ts,tsx}",
-
     },
-
+    
     e2e: {
         baseUrl: 'http://127.0.0.1:3001/',
         supportFile: 'cypress/support/e2e.js',
