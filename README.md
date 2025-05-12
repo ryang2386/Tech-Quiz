@@ -1,4 +1,4 @@
-# Book Search Engine
+# Tech Quiz
 
 ## Table of Contents
 
@@ -18,19 +18,25 @@
 
 
 ## Description
-Have you ever needed a Book Search app to track the books you want to read? Look no further! This Book Search Engine app was created for the avid reader to help keep track of the books they want to read. Users will be able to create a profile on the app and search for books using the Google Books API. The search will return up to 10 books that match the search query, and users will be able to add books to their list and delete books from the list as well.
+Ever wanted to test your tech skills and find out which areas you need to improve? I've got you covered with the Tech Quiz app! This app will ask you ten tech questions, and after you're finished, your score will be revealed, and you'll have the option to re-take the test! 
 
 ## Installation
-First, type "cd -directory-name" in your terminal to access the folder where the app is located. Once you're in the correct folder, type "npm i" or "npm install" to install all of the necessary packages. Next, type "npm run build" to build the application to prepare it for deployment. Once that's done, type "npm run develop" to deploy the app on your local server.
+* Type "cd -directory-name" in your terminal to access the folder where the app is located.
+* Type "npm i" or "npm install" to install all the necessary packages.
+* Next, type "npm run build" to build the application.
+* Once built, type "npm run seed" to load the questions, choices, and answers.
+* Afterward, the last step is to type "npm run start:dev" to deploy the app!
 
 ## Usage
-Users can use this app to search for books, add books to their list, and remove books from their list. The main purpose of this app is to help readers keep track of books they may want to read and delete them when they're finished reading the book. To demonstrate how this app is used, watch a short clip of the app in action here: 
+This app can be used by anyone willing to learn more about tech and coding in general. Also, I've added the Cypress component and e2e testing to ensure that the components are working as they should. For an example on how to run the tests on the app, please refer to the walkthrough video I've provided below:
+
+https://github.com/user-attachments/assets/00a54a18-78d0-44d7-937f-914a5cf7fdff
 
 ## Contribution
-Thank you to Columbia University Coding Bootcamp for providing me with the starter code needed to build this app. The lessons taught during the Bootcamp have helped me immensely in completing the coding for this app. If you have any ideas or changes that you'd think would improve the app, feel free to fork the repo and create a pull request. I'm more than interested in learning what I can do to improve as a coder. Also, please give this app a star! I'd truly appreciate it!
+Columbia University Coding Bootcamp provided the code for the Tech Quiz to work. I was tasked with creating tests for the app using Cypress. I'm grateful for the lessons taught at Columbia because it provided me with the tools needed to complete the Cypress testing code for the app. If you'd like to run more tests on the app, feel free to fork the repo and create a pull request. I'd like to see the other tests you can develop based on the code. Also, please give this app a star! I'd truly appreciate it!
 
 ## Tests
-All tests have been conducted on this app. If you want a preview of how the app works, please check the usage section for video previews!
+Included in the code for the app, I've added Cypress component and e2e testing. For further testing, please fork the repo and test the app further. If you're having difficulty figuring out what command(s) to use in the terminal to run the tests, please refer to my walkthrough video above!
 
 ## License
 None.
